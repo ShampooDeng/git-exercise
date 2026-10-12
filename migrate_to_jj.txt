@@ -1,1 +1,0 @@
-This repository has migrated to jj, a new source control tool!
