@@ -11,6 +11,7 @@ This repo is configuared with both `git` and `jujustu`:
 Following the rules below when asked to review current commit and provide commit message:
 
 - Restrictly follow the rules of `Conventional Commits`
+- Always include a detailed description (body) with the commit message, not just a subject line.
 - When choose `jujustu`, use `jj describe --message "{MESSAGE}"`
 - When choose `git`, directly output message without any tab or space, so it's easier to copy
 
