@@ -18,5 +18,6 @@ Following the rules below when asked to review current commit and provide commit
 # Sync bookmarks
 
 - When asked to `sync bookmark`, always move the currently tracked bookmark to the latest non-empty revision.
+- To inspect non-empty revision heads, use `jj log -r 'heads(~empty())' -T 'commit_id.short() ++ " " ++ description ++ " bookmarks=" ++ bookmarks ++ "\n"'`. This lists visible heads among non-empty revisions; it does not move a bookmark, and it may return multiple heads when history has diverged. Choose the latest non-empty revision relevant to the tracked bookmark rather than assuming there is one global head.
 
 
