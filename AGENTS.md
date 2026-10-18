@@ -14,4 +14,8 @@ Following the rules below when asked to review current commit and provide commit
 - When choose `jujustu`, use `jj describe --message "{MESSAGE}"`
 - When choose `git`, directly output message without any tab or space, so it's easier to copy
 
+# Sync bookmarks
+
+- When asked to `sync bookmark`, always move the currently tracked bookmark to the latest non-empty revision.
+
 
