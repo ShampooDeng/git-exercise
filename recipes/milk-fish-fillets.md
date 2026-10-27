@@ -1,4 +1,4 @@
-# Fish recipe
+# Milk Fish Fillets
 
 - 200ml Milk
 - 2 Fish fillets
