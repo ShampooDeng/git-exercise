@@ -15,7 +15,8 @@ When asked to perform a fix based on the review:
 2. Perform the fix and necessary tests
 3. Ask for manual inspection
 
-- Never `jj squash` without explictly user approval
+- Never `jj squash` without explicit user approval, except for the empty-parent cleanup rule below.
+- If the previous revision (`@-`) has no changes and its description is empty, use `jj squash` to fold the current revision into that empty parent and remove the redundant node from the history. This rule authorizes that specific cleanup without additional approval.
 
 When asked to provide commit message:
 - Use `jj diff` to view and summary current changes
